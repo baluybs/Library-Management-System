@@ -74,7 +74,7 @@ public class BookDTO implements Serializable{
 	@Override
 	public String toString() {
 		return "[id=" + id + ", bookname=" + bookname + ", author=" + author
-				+ ", number=" + number + ", dto=" + dto + "]";
+				+ ", number=" +number+ "]";
 	}
 	
 }

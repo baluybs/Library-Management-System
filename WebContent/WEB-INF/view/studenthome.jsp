@@ -19,13 +19,6 @@
 <form action="det" method="post">
 	<input type="submit" name="BookDetails" value="BookDetails">
 </form>
-<script type="text/javascript">
-	let book=${bookMsg};
-	for (var i = 0; i < book.length; i++) {
-		book[i].bookname
-		book[i].author
-		book[i].number;
-	}
-</script>
+<h3>Book Details:${bookMsg}</h3>
 </body>
 </html>
